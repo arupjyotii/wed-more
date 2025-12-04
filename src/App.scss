@@ -1,0 +1,333 @@
+#root {
+	@media only screen and (min-width: 768px) {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+}
+
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 200ms linear;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 200ms linear;
+}
+
+.container {
+	background-color: #ffffff;
+	@media only screen and (min-width: 768px) {
+		box-shadow: rgba(168, 168, 168, 0.5) 0px 1px 4px 0px;
+		padding: 50px;
+	}
+	@media only screen and (max-width: 767px) {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	margin: auto;
+
+	.navigation {
+		.header {
+			font-family: Allura;
+			font-size: 60px;
+			font-family: 600;
+			@media only screen and (max-width: 767px) {
+				font-size: 40px;
+			}
+		}
+		.mobile-nav-trigger {
+			font-family: Montserrat;
+			color: rgb(129, 127, 127);
+			border-top: 2px solid #a3a5a7;
+			border-bottom: 2px solid #a3a5a7;
+			@media only screen and (min-width: 768px) {
+				display: none;
+			}
+		}
+		.trigger-wrapper {
+			margin: 10px auto 25px auto;
+			.trigger-button {
+				font-family: Montserrat;
+				color: rgb(129, 127, 127);
+				border-top: 2px solid #a3a5a7;
+				border-bottom: 2px solid #a3a5a7;
+				@media only screen and (min-width: 768px) {
+					display: none;
+				}
+			}
+		}
+	}
+
+	#overlay-styles {
+		width: 100%;
+	    margin: 0 auto;
+	    position: fixed;
+	    height: 100%;
+	    left: 50%;
+	    top: 50%;
+	    transform: translate(-50%, -50%);
+	    z-index: 1;
+	    background-color: #ffffff;
+	    padding: 25px;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: flex-start;
+	}
+
+	.navbar-overlay {
+		@media only screen and (max-width: 767px) {
+			margin-bottom: 25px;
+			display: none;
+		}
+		#overlay-close-button {
+			margin-bottom: 0px;
+		    padding: 3px 8px;
+		    cursor: pointer;
+		    border-radius: 50%;
+		    border: none;
+		    width: 30px;
+		    height: 30px;
+		    font-weight: bold;
+		    align-self: flex-end;
+		    background-color: #fff;
+		    font-family: Montserrat;
+		    font-size: 20px;
+		}
+
+		.navbar-nav {
+			@media only screen and (min-width: 768px) {
+				flex-direction: row !important;
+			}
+			.nav-item {
+				.nav-link {
+					padding: 10px 20px;
+				}
+				a {
+					font-family: Montserrat;
+					color: #000000;	
+				}
+			}
+		}
+	}
+
+	.navbar {
+		justify-content: center;
+		margin-bottom: 40px;
+		@media only screen and (max-width: 767px) {
+			margin-bottom: 25px;
+			display: none;
+		}
+
+		.navbar-nav {
+			@media only screen and (min-width: 768px) {
+				flex-direction: row !important;
+			}
+			.nav-item {
+				.nav-link {
+					padding: 10px 20px;
+				}
+				a {
+					font-family: Montserrat;
+					color: #000000;	
+				}
+			}
+		}
+	}
+
+	.partial {
+		.headerImage {
+			img {
+				width: 100%;
+			}
+		}
+		.subheader{
+			font-family: Allura;
+			font-size: 60px;
+			font-family: 600;
+			@media only screen and (max-width: 767px) {
+				font-size: 40px;
+			}
+		}
+
+		.intro {
+			font-family: Montserrat;
+			font-size: 16px;
+			margin-top: 50px;
+		}
+
+		.vector {
+			img {
+				max-width: 75px;
+				margin-top: 50px;
+				margin-bottom: 50px;
+			}
+		}
+
+		.details {
+			.venue {
+				font-family: Allura;
+				font-size: 50px;
+				font-family: 600;
+				@media only screen and (max-width: 767px) {
+					font-size: 30px;
+				}
+			}
+			.date {
+				font-family: Montserrat;
+				font-size: 16px;
+				color: rgb(163, 165, 167);
+				.countdown {
+					margin-top: 20px;
+					.countdown-padding {
+						padding-left: 5px;
+						padding-right: 5px;
+					}
+				}
+			}
+			.time {
+				font-family: Montserrat;
+				font-size: 16px;
+				color: rgb(163, 165, 167);
+				margin-top: 20px;
+			}
+			.copy {
+				font-family: Montserrat;
+				font-size: 16px;
+			}
+			.registry {
+				margin-top: 50px;
+				.icon {
+					display: inline-block;
+					@media only screen and (max-width: 767px) {
+						margin-bottom: 30px;
+					}
+					a {
+						img {
+							width: 80%;
+							@media only screen and (max-width: 767px) {
+								margin: 10px auto;
+							}
+						}
+					}
+				}
+			}
+			.our-story-copy {
+				p {
+				    font-size: 16px;
+				}
+				margin-top: 30px;
+				font-size: 14px;
+				font-family: Montserrat;
+	    		color: #000000;
+			}
+			.qa-copy {
+				p, strong {
+				    font-size: 16px;
+				}
+				margin-top: 30px;
+				font-size: 14px;
+				font-family: Montserrat;
+	    		color: #000000;
+			}
+		}
+
+		.subheader-subnav {
+			border-bottom: 1px solid rgb(226, 226, 226);
+			.subhead {
+			    display: inline-block;
+			    font-family: Montserrat;
+	    		color: #000000;
+	    		padding-top: 15px;
+	    		padding-bottom: 15px;
+	    		font-size: 14px;
+	    		cursor: pointer;
+			}
+		}
+	}
+
+	.rsvp-here {
+		a {
+			text-decoration: none;
+			color: #000000;
+		}
+		.rsvp-button {
+			font-size: 16px;
+			max-width: 250px;
+			color: #000000;
+			text-align: center;
+			margin: 50px auto;
+			padding: 10px 25px 10px 25px;
+			border: 1px solid #000000;
+			border-radius: 4px;
+		}
+		.rsvp-button:hover {
+			transform: scale(1.1);
+		}
+	}
+
+	.grid {
+		margin-bottom: 30px;
+		display: -ms-flexbox; /* IE10 */
+		display: flex;
+		-ms-flex-wrap: wrap; /* IE10 */
+		flex-wrap: wrap;
+		padding: 0 4px;
+
+		/* Create four equal columns that sits next to each other */
+		.column {
+			-ms-flex: 25%; /* IE10 */
+			flex: 25%;
+			max-width: 25%;
+			padding: 0 4px;
+
+			/* Responsive layout - makes a two column-layout instead of four columns */
+			@media screen and (max-width: 800px) {
+				-ms-flex: 50%;
+				flex: 50%;
+				max-width: 50%;
+			}
+
+			/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+			@media screen and (max-width: 600px) {
+				-ms-flex: 100%;
+				flex: 100%;
+				max-width: 100%;
+			}
+		
+			.image-tile:hover {
+				cursor: pointer;
+			}
+			img {
+				margin-top: 8px;
+				vertical-align: middle;
+				width: 100%;
+			}
+		}
+	}
+}
+
+.modal.show .modal-dialog {
+	margin: 10px auto;
+}
+
+.modal-body-wrapper {
+	img {
+		width: 100%;
+	}
+}
+
+.modal-footer:hover {
+	cursor: pointer;
+}
+
+.active {
+	font-family: Montserrat;
+	font-weight: 600;
+	color: red;
+}
