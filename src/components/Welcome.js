@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Count from "./Count";
-import RsvpHere from "./RsvpHere";
+import RsvpHere from "./RsvpHere.js";
 
 class Welcome extends Component {
 

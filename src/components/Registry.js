@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import RsvpHere from "./RsvpHere";
+import RsvpHere from "./RsvpHere.js";
  
 class Registry extends Component {
   constructor(props) {

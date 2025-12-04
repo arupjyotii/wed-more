@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import RsvpHere from "./RsvpHere";
+import RsvpHere from "./RsvpHere.js";
 import Modal from "react-bootstrap/Modal"
 import 'bootstrap/dist/css/bootstrap.min.css'
 

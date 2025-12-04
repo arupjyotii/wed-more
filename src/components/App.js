@@ -10,14 +10,14 @@ import {
 } from 'react-transition-group'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Navigation from "./Navigation";
-import Welcome from "./Welcome";
-import Moments from "./Moments";
-import Ourstory from "./Ourstory";
-import Registry from "./Registry";
-import Rsvp from "./Rsvp";
-import Dialog from "./Dialog";
-import NotFound from "./NotFound";
+import Navigation from "./Navigation.js";
+import Welcome from "./Welcome.js";
+import Moments from "./Moments.js";
+import Ourstory from "./Ourstory.js";
+import Registry from "./Registry.js";
+import Rsvp from "./Rsvp.js";
+import Dialog from "./Dialog.js";
+import NotFound from "./NotFound.js";
 import '../App.scss'
 
  
